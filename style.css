@@ -64,10 +64,30 @@ main {
 }
 
 .card {
-  height: 80vh;
+  margin: auto;
   display: flex;
-  padding: 10%;
   justify-content: space-around;
+  gap: 1rem;
+  padding: 8rem 4rem;
+}
+
+.card > h3,
+p {
+  width: 50%;
+  height: 80%;
+  text-align: center;
+}
+
+.card > h3 {
+  font-size: 65px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.card > p {
+  width: 30%;
+  font-size: 23px;
+  text-align: left;
 }
 
 .about {
