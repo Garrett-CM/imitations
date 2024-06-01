@@ -12,6 +12,7 @@ body {
   margin: auto;
   width: 100%;
   background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
 }
 
 nav,
@@ -40,6 +41,10 @@ nav {
   justify-content: space-between;
 }
 
+#logo {
+  width: 80px;
+}
+
 nav > ul {
   display: flex;
   justify-content: space-around;
@@ -55,12 +60,23 @@ main {
   width: 100vw;
   height: 100vh;
   background-color: black;
+  position: relative;
+}
+
+iframe {
+  border: 1px solid palegreen;
+  width: 100vw;
+  height: 100vh;
 }
 
 .hero-video > div {
-  margin: auto;
-  width: 98vw;
-  height: 80%;
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
+
+.hero-controls {
+  text-align: left;
 }
 
 .card {
